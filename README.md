@@ -158,7 +158,7 @@ photo-backup calls no outside program except two that are part of Windows
 - **Antivirus:** some engines flag unsigned programs built with PyInstaller.
   This package uses the one-folder layout, the one they object to least; if
   yours quarantines a file, restore it and add the folder as an exception.
-- **Size:** about 25 MB unzipped (12 MB zipped).
+- **Size:** about 28 MB unzipped (14 MB zipped).
 - **Speed:** the copy runs exactly as fast as with Python (the same scripts
   do it).
 - **Paths:** folders with Japanese or Portuguese names, brackets, spaces,
