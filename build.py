@@ -26,8 +26,8 @@ import zipfile
 from pathlib import Path
 
 # --- settings --------------------------------------------------------------
-PHOTOBACKUP_TAG = "v0.12.0"
-# Package revision for this photo-backup tag: v0.12.0 + 1 -> release "v0.12.0-exe1".
+PHOTOBACKUP_TAG = "v0.12.1"
+# Package revision for this photo-backup tag: v0.12.1 + 1 -> release "v0.12.1-exe1".
 PACKAGE_REVISION = 1
 REQUIREMENTS = ["rich==15.0.0", "pyinstaller==6.22.2"]
 # ---------------------------------------------------------------------------

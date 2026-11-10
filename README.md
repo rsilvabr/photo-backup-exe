@@ -9,8 +9,8 @@
 > the two. The program here is a newer way of packaging the same scripts,
 > meant for people who would rather not install Python.
 
-**Current version: v0.12.0-exe1** (2026-11-10) · packages photo-backup
-[v0.12.0](https://github.com/rsilvabr/photo-backup/releases/tag/v0.12.0) ·
+**Current version: v0.12.1-exe1** (2026-11-11) · packages photo-backup
+[v0.12.1](https://github.com/rsilvabr/photo-backup/releases/tag/v0.12.1) ·
 [All releases](docs/version_history.md) · [How it works](docs/how_it_works.md) ·
 [Bug tracking](docs/bug_tracking.md)
 
@@ -75,7 +75,7 @@ GitHub records a build attestation for the zip and `photo-backup.exe`. With
 the [GitHub CLI](https://cli.github.com/):
 
 ```
-gh attestation verify photo-backup-0.12.0-exe1-x64.zip --repo rsilvabr/photo-backup-exe
+gh attestation verify photo-backup-0.12.1-exe1-x64.zip --repo rsilvabr/photo-backup-exe
 ```
 
 It names the commit and the workflow run the file came from, and fails for a
