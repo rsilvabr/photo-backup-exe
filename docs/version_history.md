@@ -6,11 +6,23 @@ itself is in [its version history](https://github.com/rsilvabr/photo-backup/blob
 
 | Version | Date | photo-backup | Highlights |
 |---------|------|--------------|------------|
-| **[v0.13.0-exe1](#v0130-exe1)** | 2026-11-11 | v0.13.0 | photo-backup v0.13.0 |
+| **[v0.13.1-exe1](#v0131-exe1)** | 2026-11-11 | v0.13.1 | photo-backup v0.13.1 |
+| [v0.13.0-exe1](#v0130-exe1) | 2026-11-11 | v0.13.0 | photo-backup v0.13.0 |
 | [v0.12.1-exe1](#v0121-exe1) | 2026-11-11 | v0.12.1 | photo-backup v0.12.1 |
 | [v0.12.0-exe1](#v0120-exe1) | 2026-11-10 | v0.12.0 | First package |
 
 ---
+
+## v0.13.1-exe1
+
+*2026-11-11*
+
+- Packages photo-backup
+  [v0.13.1](https://github.com/rsilvabr/photo-backup/releases/tag/v0.13.1)
+  (fixes and speed from a second bug sweep: a `--verify full` that survives
+  unreadable files and Ctrl+C and reads both disks at once, small files copied
+  and verified faster, a damaged catalog and odd file dates handled, shorter
+  CSVs). The launcher and the build are unchanged.
 
 ## v0.13.0-exe1
 
