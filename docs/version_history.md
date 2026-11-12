@@ -6,12 +6,25 @@ itself is in [its version history](https://github.com/rsilvabr/photo-backup/blob
 
 | Version | Date | photo-backup | Highlights |
 |---------|------|--------------|------------|
-| **[v0.13.1-exe1](#v0131-exe1)** | 2026-11-11 | v0.13.1 | photo-backup v0.13.1 |
+| **[v0.13.2-exe1](#v0132-exe1)** | 2026-11-12 | v0.13.2 | photo-backup v0.13.2 |
+| [v0.13.1-exe1](#v0131-exe1) | 2026-11-11 | v0.13.1 | photo-backup v0.13.1 |
 | [v0.13.0-exe1](#v0130-exe1) | 2026-11-11 | v0.13.0 | photo-backup v0.13.0 |
 | [v0.12.1-exe1](#v0121-exe1) | 2026-11-11 | v0.12.1 | photo-backup v0.12.1 |
 | [v0.12.0-exe1](#v0120-exe1) | 2026-11-10 | v0.12.0 | First package |
 
 ---
+
+## v0.13.2-exe1
+
+*2026-11-12*
+
+- Packages photo-backup
+  [v0.13.2](https://github.com/rsilvabr/photo-backup/releases/tag/v0.13.2)
+  (fixes from a third bug sweep: a junction or a `subst` letter can no longer
+  lead a backup into a source or a restore into the backup, `--revert-last`
+  trusts only Capture One's places, nothing in the versions or orphans folder
+  is replaced, a quicker `--verify quick`). The launcher and the build are
+  unchanged.
 
 ## v0.13.1-exe1
 
